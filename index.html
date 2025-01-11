@@ -1,58 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-    <!-- Basic Meta Tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Mithlesh Kumar, showcasing web development projects, skills, and experience.">
-    <meta name="keywords" content="Mithlesh Kumar, portfolio, web developer, projects, skills, experience">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mithlesh Kumar's personal portfolio showcasing web development skills, projects, and experience.">
+    <meta name="keywords" content="Mithlesh Kumar, web developer, portfolio, projects, skills, education, experience">
     <meta name="author" content="Mithlesh Kumar">
-
-    <!-- Open Graph Meta Tags (For Social Media Sharing) -->
-    <meta property="og:title" content="Mithlesh Kumar - Portfolio">
-    <meta property="og:description" content="Explore the portfolio of Mithlesh Kumar, a passionate web developer specializing in modern web design.">
-    <meta property="og:image" content="images/portfolio-thumbnail.jpg">
-    <meta property="og:url" content="https://www.mithleshportfolio.com">
     <meta property="og:type" content="website">
-
-    <!-- Twitter Card Meta Tags -->
+    <meta property="og:title" content="Mithlesh Kumar's Portfolio">
+    <meta property="og:description" content="Mithlesh Kumar's personal portfolio showcasing web development skills, projects, and experience.">
+    <meta property="og:image" content="images/portfolio-thumbnail.jpg"> <!-- Replace with a relevant image -->
+    <meta property="og:url" content="https://www.mithleshportfolio.com"> <!-- Replace with your portfolio URL -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Mithlesh Kumar - Portfolio">
-    <meta name="twitter:description" content="Explore the portfolio of Mithlesh Kumar, a passionate web developer specializing in modern web design.">
-    <meta name="twitter:image" content="images/portfolio-thumbnail.jpg">
-
-    <!-- Schema.org Metadata -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Mithlesh Kumar",
-            "jobTitle": "Web Developer",
-            "url": "https://www.saimithlesh.me",
-            "sameAs": [
-                "https://www.linkedin.com/in/mithlesh-kumar",
-                "https://github.com/mithlesh-kumar"
-            ]
-        }
-    </script>
-
-    <title>Mithlesh Kumar - Portfolio</title>
-
+    <meta name="twitter:title" content="Mithlesh Kumar's Portfolio">
+    <meta name="twitter:description" content="Mithlesh Kumar's personal portfolio showcasing web development skills, projects, and experience.">
+    <meta name="twitter:image" content="images/portfolio-thumbnail.jpg"> <!-- Replace with a relevant image -->
+    <title>Mithlesh Kumar - Web Developer Portfolio</title>
+    
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- CSS Files -->
+    <!-- External CSS and Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div id="mobile-menu-open" class="shadow-large">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
             <li><a href="#about">About</a></li>
@@ -62,86 +46,126 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </header>
 
-    <!-- Header -->
-    <header>
-        <div id="lead">
-            <div id="lead-content">
-                <h1>Mithlesh Kumar</h1>
-                <h2>Web Developer | Full-Stack Enthusiast</h2>
-                <a href="#contact" class="btn btn-default btn-lg shadow-large">Hire Me</a>
-            </div>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Mithlesh Kumar</h1>
+            <h2>Web Developer</h2>
+            <a href="#" class="btn-rounded-white">View Resume</a>
         </div>
+
         <div id="lead-overlay"></div>
         <div id="lead-down">
             <span>
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
         </div>
-    </header>
+    </div>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Mithlesh Kumar, a web developer with a passion for creating modern and user-friendly websites.</p>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Experience</h2>
-        <article>
-            <h3>Internship at XYZ Company</h3>
-            <p>Developed a responsive e-commerce website and improved site performance by 30%.</p>
-        </article>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <h2>Education</h2>
-        <p>B.Tech in Computer Science - CMR ENGINEERING COLLEGE (2023-2027)</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Tic-Tac-Toe Game</h3>
-            <p>A simple interactive game built with HTML, CSS, and JavaScript.</p>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a passionate web developer with experience in building dynamic and responsive websites using modern web technologies. My expertise lies in front-end development, with a focus on HTML, CSS, JavaScript, and frameworks like React.
+                    </p>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>NRI Junior College</h3>
+            <span class="education-date">Sept 2021 - Sept 2023</span>
+            <h4>MPC</h4>
+            <p>
+                Completed my intermediate studies with a focus on Mathematics, Physics, and Chemistry.
+            </p>
+        </div>
+        <div class="education-block">
+            <h3>CMR Engineering College</h3>
+            <span class="education-date">Sept 2023 - Sept 2027</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>Learning full-stack web development.</li>
+                <li>Engaged in various programming.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" alt="Project screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tic-Tac-Toe Game</h3>
+                        <p>
+                            Developed a web application using Html, CSS, and JavaScript.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>C</li>
+            <li>C++</li>
             <li>JavaScript</li>
-            <li>React.js</li>
+            <li>HTML</li>
+            <li>Node.js</li>
+            <li>CSS</li>
+            <li>Java</li>
         </ul>
-    </section>
+    </div>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
-        <ul>
-            <li>Email: <a href="mailto:mithlesh@example.com">mithlesh934639@gmail.com</a></li>
-            <li>GitHub: <a href="https://github.com/Mithlesh-95" target="_blank">Github</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/mithlesh-kumar" target="_blank">linkedin</a></li>
-        </ul>
-    </section>
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/mithlesh934639@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
 
-    <!-- Footer -->
     <footer>
-        <p>© 2025 Mithlesh Kumar. All rights reserved.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>Copyright &copy; <span id="current-year">2025</span> Mithlesh Kumar</p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li><a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="libs/jquery/jquery.min.js" defer></script>
-    <script src="libs/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-    <script src="js/scripts.js" defer></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
