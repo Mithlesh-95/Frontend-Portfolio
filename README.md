@@ -24,7 +24,7 @@ The following technologies were used in the development of my portfolio:
 
 ## Contact
 
-You can reach me at [Email](mithlesh934639@gmail.com) or find me on [LinkedIn] [(https://www.linkedin.com/in/markanti-mithlesh-kumar-944309297/).
+You can reach me at [Email](mithlesh934639@gmail.com) or find me on [LinkedIn] (https://www.linkedin.com/in/markanti-mithlesh-kumar-944309297/).
 
 ---
 
