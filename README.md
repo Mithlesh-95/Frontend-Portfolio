@@ -10,11 +10,9 @@ Hi, I'm Mithlesh, a passionate developer with an interest in web development, so
 
 Here are some of the projects you can explore in my portfolio:
 
-- **Project 1**: Description of your first project.
-- **Project 2**: Description of your second project.
-- **Project 3**: Description of your third project.
-
-(You can update the project list with actual projects and descriptions.)
+Project 1: Tic-Tac-Toe Game
+A simple yet engaging Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game allows two players to take turns marking spaces on a 3x3 grid, with the goal of placing three marks in a row, column, or diagonal to win. The game is designed to be responsive and user-friendly, showcasing basic front-end web development skills.
+[View Project](saimithlesh.freewebhostmost.com)
 
 ## Technologies
 
