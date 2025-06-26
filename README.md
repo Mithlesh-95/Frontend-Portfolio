@@ -1,31 +1,76 @@
-# My Portfolio
+# 🚀 Markanti Mithlesh Kumar — Frontend Developer Portfolio
 
-Welcome to my personal portfolio! This repository showcases my work and projects. You can view my portfolio live at [saimithlesh.me](https://www.saimithlesh.me).
+Welcome to my personal portfolio website! Built entirely with **pure HTML and CSS**, this site is a reflection of my frontend skills, visual design sense, and attention to responsive detail. No frameworks. No shortcuts. Just handcrafted code and passion.
 
-## About Me
-
-Hi, I'm Mithlesh, a passionate developer with an interest in web development, software engineering, and technology. This portfolio highlights some of the projects I have worked on and the skills I have developed.
-
-## Projects
-
-Here are some of the projects you can explore in my portfolio:
-
-Project 1: Tic-Tac-Toe Game
-A simple yet engaging Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game allows two players to take turns marking spaces on a 3x3 grid, with the goal of placing three marks in a row, column, or diagonal to win. The game is designed to be responsive and user-friendly, showcasing basic front-end web development skills.
-[View Project](https://www.saimithlesh.freewebhostmost.com).
-
-## Technologies
-
-The following technologies were used in the development of my portfolio:
-
-- HTML
-- CSS
-- JavaScript
-
-## Contact
-
-You can reach me at [mithlesh934639@gmail.com] or find me on [LinkedIn](https://www.linkedin.com/in/markanti-mithlesh-kumar-944309297/).
+🌐 **Live Website**: [Click here to visit](https://mithlesh-fd.github.io/Portfolio)  
+🧠 **Built With**: HTML5, CSS3, Cursor AI  
+📄 **Resume**: [Download Resume](./resume.pdf)
 
 ---
 
-Thank you for visiting my portfolio!
+## 🔥 About Me
+
+Hi, I’m **Markanti Mithlesh Kumar**, a frontend developer driven by design and obsessed with details. I'm currently exploring cutting-edge tools like **Cursor AI** and **Figma** to boost productivity and creativity.
+
+I believe in:
+- Writing clean, semantic HTML
+- Building fully responsive and accessible layouts
+- Designing with both user and performance in mind
+
+I'm actively looking for a **remote internship** in frontend development — let's build something amazing together!
+
+---
+
+## 💻 Featured Projects
+
+### 🎨 Artfolio
+> An animated portfolio gallery built using **CSS Flexbox** and advanced transitions for a truly immersive visual experience.  
+🔗 [View Live](https://mithlesh-fd.github.io/Artfolio)
+
+### 🧩 Interactive Showcase  
+> A concept-based animated layout highlighting storytelling and animation using CSS only.  
+🔗 [View Live](https://mithlesh-fd.github.io/Interactive-Showcase)
+
+### 📰 Blog Page  
+> A fully responsive neumorphic blog concept designed with soft UI and modern layout strategies.  
+🔗 [View Live](https://mithlesh-fd.github.io/Blog-Page)
+
+### ⏱️ StopWatch  
+> A stylish stopwatch UI made with pure HTML & CSS.  
+🔗 [View Live](https://mithlesh-fd.github.io/StopWatch)
+
+### 📋 Task Manager  
+> A clean and effective to-do/task manager using HTML, CSS, and basic JavaScript.  
+🔗 [View Live](https://mithlesh-fd.github.io/Task-Manager)
+
+### ❌⭕ Tic Tac Toe  
+> A simple game of logic using pure frontend power.  
+🔗 [View Live](https://mithlesh-fd.github.io/Tic-Tac-Toe)
+
+---
+
+## 🧰 Skills
+
+- ✅ HTML5 / CSS3
+- ✅ Responsive Web Design
+- ✅ Basic JavaScript
+- ✅ UI/UX Design with Figma
+- ✅ AI Tools: Cursor, Loable
+- ✅ Git & GitHub
+
+---
+
+## 📬 Contact
+
+📧 **Email**: mithlesh.webdev@gmail.com  
+🔗 [**LinkedIn**](https://www.linkedin.com/in/markanti-mithlesh-kumar-944309297)  
+💻 [**GitHub**](https://github.com/Mithlesh-FD)
+
+---
+
+> _"Design is not just what it looks like and feels like. Design is how it works."_  
+> — Steve Jobs
+
+---
+
+_⚠️ Note: This site is built as a personal showcase and will be updated regularly as I grow as a developer._
