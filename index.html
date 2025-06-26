@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<html lang="en">
 <head>
-    <link rel="canonical" href="https://www.saimithlesh.me/" />
+   <link rel="canonical" href="https://www.saimithlesh.me/" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,155 +17,279 @@
     <meta name="twitter:title" content="Mithlesh Kumar's Portfolio">
     <meta name="twitter:description" content="Mithlesh Kumar's personal portfolio showcasing web development skills, projects, and experience.">
     <meta name="twitter:image" content="images/portfolio-thumbnail.jpg"> <!-- Replace with a relevant image -->
-    <title>Mithlesh Kumar - Web Developer Portfolio</title>
+   <title>Markanti Mithlesh Kumar - Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <!-- External CSS and Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Markanti Mithlesh Kumar</h1>
+                <p class="headline">I build interfaces that speak for themselves.</p>
+                <a href="Resume/Markanti_Mithlesh_Kumar_Frontend_Resume.pdf" download="Markanti_Mithlesh_Kumar_Resume.pdf" class="cta-button">Download Resume</a>
+            </div>
         </div>
-        <ul id="menu" class="shadow">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Mithlesh Kumar</h1>
-            <h2>Web Developer</h2>
-            <a href="#" class="btn-rounded-white">View Resume</a>
-        </div>
-
-        <div id="lead-overlay"></div>
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-    </div>
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I am a passionate web developer with experience in building dynamic and responsive websites using modern web technologies. My expertise lies in front-end development, with a focus on HTML, CSS, JavaScript, and frameworks like React.
-                    </p>
-                </div>
+    <main>
+        <!-- About Section -->
+        <section id="about" class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content glass-card">
+                <p>Hello! I'm a passionate and aspiring Frontend Developer with a keen eye for modern design and user experience. I'm currently honing my skills in core web technologies like <strong>HTML, CSS, and JavaScript</strong>, and I'm enthusiastic about leveraging modern tools such as <strong>Cursor</strong> for AI-assisted development and <strong>Figma</strong> for UI/UX design. My goal is to create intuitive, responsive, and visually appealing web applications. I'm actively seeking a remote internship where I can contribute to exciting projects and continue to grow as a developer.</p>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>NRI Junior College</h3>
-            <span class="education-date">Sept 2021 - Sept 2023</span>
-            <h4>MPC</h4>
-            <p>
-                Completed my intermediate studies with a focus on Mathematics, Physics, and Chemistry.
-            </p>
-        </div>
-        <div class="education-block">
-            <h3>CMR Engineering College</h3>
-            <span class="education-date">Sept 2023 - Sept 2027</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>Learning full-stack web development.</li>
-                <li>Engaged in various programming.</li>
-            </ul>
-        </div>
-    </div>
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project Card 1 -->
+                <div class="project-card-wrapper">
+                    <!-- Hidden radio buttons to control the slider state -->
+                    <input type="radio" name="slider-1" id="p1-s1" checked>
+                    <input type="radio" name="slider-1" id="p1-s2">
+                    <input type="radio" name="slider-1" id="p1-s3">
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" alt="Project screenshot">
-                    </div>
-                    <div class="project-info">
-                        <h3>Tic-Tac-Toe Game</h3>
-                        <p>
-                            Developed a web application using Html, CSS, and JavaScript.
-                        </p>
-                        <a href="https://www.saimithlesh.freewebhostmost.com" target="_blank">View Project</a>
+                    <div class="project-card glass-card">
+                        <div class="project-image-slider">
+                            <div class="slides">
+                                <div class="slide" id="slide-p1-s1">
+                                    <img src="images/p11.png" alt="Project Alpha Screenshot 1">
+                                    <div class="slider-nav">
+                                        <label for="p1-s3" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p1-s2" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                                <div class="slide" id="slide-p1-s2">
+                                    <img src="images/p12.png" alt="Project Alpha Screenshot 2">
+                                    <div class="slider-nav">
+                                        <label for="p1-s1" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p1-s3" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                                <div class="slide" id="slide-p1-s3">
+                                    <img src="images/p13.png" alt="Project Alpha Screenshot 3">
+                                    <div class="slider-nav">
+                                        <label for="p1-s2" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p1-s1" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Artfolio</h3>
+                        <p class="tech-stack">CSS Flexbox, Animations</p>
+                        <p>An animated portfolio gallery showcasing creative use of CSS Grid and Flexbox for complex, responsive layouts and smooth transitions.</p>
+                        <a href="https://mithlesh-fd.github.io/Artfolio/" class="project-button" target="_blank" rel="noopener noreferrer">View Live</a>
                     </div>
                 </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card-wrapper">
+                    <input type="radio" name="slider-2" id="p2-s1" checked>
+                    <input type="radio" name="slider-2" id="p2-s2">
+                    <input type="radio" name="slider-2" id="p2-s3">
+
+                    <div class="project-card glass-card">
+                        <div class="project-image-slider">
+                            <div class="slides">
+                                <div class="slide" id="slide-p2-s1">
+                                    <img src="images/p21.png" alt="Project Beta Screenshot 1">
+                                    <div class="slider-nav">
+                                        <label for="p2-s3" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p2-s2" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                                <div class="slide" id="slide-p2-s2">
+                                    <img src="images/p22.png" alt="Project Beta Screenshot 2">
+                                    <div class="slider-nav">
+                                        <label for="p2-s1" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p2-s3" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                                <div class="slide" id="slide-p2-s3">
+                                    <img src="images/p23.png" alt="Project Beta Screenshot 3">
+                                    <div class="slider-nav">
+                                        <label for="p2-s2" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p2-s1" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Interactive Page</h3>
+                        <p class="tech-stack">CSS Animations</p>
+                        <p>An animated story showcasing creative use of CSS Grid and Flexbox for complex, responsive layouts and smooth transitions.</p>
+                        <a href="https://mithlesh-fd.github.io/Interactive-Showcase/" class="project-button" target="_blank" rel="noopener noreferrer">View Live</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card-wrapper">
+                    <input type="radio" name="slider-3" id="p3-s1" checked>
+                    <input type="radio" name="slider-3" id="p3-s2">
+                    <input type="radio" name="slider-3" id="p3-s3">
+
+                    <div class="project-card glass-card">
+                        <div class="project-image-slider">
+                            <div class="slides">
+                                <div class="slide" id="slide-p3-s1">
+                                    <img src="images/p31.png" alt="Project Gamma Screenshot 1">
+                                    <div class="slider-nav">
+                                        <label for="p3-s3" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p3-s2" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                                <div class="slide" id="slide-p3-s2">
+                                    <img src="images/p32.png" alt="Project Gamma Screenshot 2">
+                                    <div class="slider-nav">
+                                        <label for="p3-s1" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p3-s3" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                                <div class="slide" id="slide-p3-s3">
+                                    <img src="images/p33.png" alt="Project Gamma Screenshot 3">
+                                    <div class="slider-nav">
+                                        <label for="p3-s2" class="prev" title="Previous slide">&lt;</label>
+                                        <label for="p3-s1" class="next" title="Next slide">&gt;</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Blog Page</h3>
+                        <p class="tech-stack">Pure CSS, UI Design</p>
+                        <p>A concept for a blog website focusing on neumorphic design principles, built entirely with HTML and CSS for a unique tactile feel.</p>
+                        <a href="https://mithlesh-fd.github.io/Blog-Page/" class="project-button" target="_blank" rel="noopener noreferrer">View Live</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card-wrapper">
+                    <input type="radio" name="slider-4" id="p4-s1" checked>
+
+                    <div class="project-card glass-card">
+                        <div class="project-image-slider">
+                            <div class="slides">
+                                <div class="slide" id="slide-p4-s1">
+                                    <img src="images/p41.png" alt="Project Gamma Screenshot 1">
+                                </div>
+                            </div>
+                        </div>
+                        <h3>StopWatch</h3>
+                        <p class="tech-stack">UI Design</p>
+                        <p>A functional Stopwatch with HTML and CSS for a unique design feel.</p>
+                        <a href="https://mithlesh-fd.github.io/StopWatch/" class="project-button" target="_blank" rel="noopener noreferrer">View Live</a>
+                    </div>
+                </div>
+
+
+                <!-- Project Card 5 -->
+                <div class="project-card-wrapper">
+                    <input type="radio" name="slider-5" id="p5-s1" checked>
+
+                    <div class="project-card glass-card">
+                        <div class="project-image-slider">
+                            <div class="slides">
+                                <div class="slide" id="slide-p5-s1">
+                                    <img src="images/p51.png" alt="Project Gamma Screenshot 1">
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Task Manager</h3>
+                        <p class="tech-stack">HTML, CSS & JS</p>
+                        <p>A functional task manager with HTML and CSS for a simple & unique design feel.</p>
+                        <a href="https://mithlesh-fd.github.io/Task-Manager/" class="project-button" target="_blank" rel="noopener noreferrer">View Live</a>
+                    </div>
+                </div>
+                <!-- Project Card 6 -->
+                <div class="project-card-wrapper">
+                    <input type="radio" name="slider-6" id="p6-s1" checked>
+
+                    <div class="project-card glass-card">
+                        <div class="project-image-slider">
+                            <div class="slides">
+                                <div class="slide" id="slide-p6-s1">
+                                    <img src="images/p61.png" alt="Project Gamma Screenshot 1">
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Tic-Tac-Toe</h3>
+                        <p class="tech-stack">Pure HTML, CSS & JS UI Design</p>
+                        <p>A functional Tic-Tac-Toe game with HTML, CSS and basic JS.</p>
+                        <a href="https://mithlesh-fd.github.io/Tic-Tac-Toe/" class="project-button" target="_blank" rel="noopener noreferrer">View Live</a>
+                    </div>
+                </div>
+
             </div>
-        </div>
-    </div>
+        </section>
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>Node.js</li>
-            <li>CSS</li>
-            <li>Java</li>
-        </ul>
-    </div>
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item glass-card"><span>HTML5</span></div>
+                <div class="skill-item glass-card"><span>CSS3</span></div>
+                <div class="skill-item glass-card"><span>Basic JavaScript</span></div>
+                <div class="skill-item glass-card"><span>AI Tools like Cursor etc</span></div>
+                <div class="skill-item glass-card"><span>Figma</span></div>
+                <div class="skill-item glass-card"><span>Responsive Design</span></div>
+            </div>
+        </section>
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/xeoovvzb">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </div>
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-form-container glass-card">
+                <form action="https://formspree.io/f/movvbzwn" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <!-- <p class="form-note">Note: This form is for demonstration purposes only and is not functional.</p> -->
+            </div>
+        </section>
+    </main>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>Copyright &copy; <span id="current-year">2025</span> Mithlesh Kumar</p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li><a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                        <li><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Markanti Mithlesh Kumar. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/Mithlesh-FD" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/markanti-mithlesh-kumar-944309297" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="mailto:mithlesh.webdev@gmail.com" aria-label="Email Me">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
-
 </html>
