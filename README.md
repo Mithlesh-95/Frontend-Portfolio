@@ -25,7 +25,7 @@ I'm actively looking for a **remote internship** in frontend development — let
 
 ### 🤖 AI Tool Finder
 > Find the Best AI Tools for Your Needs. From creators to coders, discover the best AI tools in seconds.  
-🔗 [View Live](htts://allaitool.tech)
+🔗 [View Live](https://allaitool.tech)
 
 ### ⏱️ StopWatch  
 > A stylish stopwatch UI made with pure HTML & CSS.  
