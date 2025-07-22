@@ -23,17 +23,9 @@ I'm actively looking for a **remote internship** in frontend development — let
 
 ## 💻 Featured Projects
 
-### 🎨 Artfolio
-> An animated portfolio gallery built using **CSS Flexbox** and advanced transitions for a truly immersive visual experience.  
-🔗 [View Live](https://mithlesh-fd.github.io/Artfolio)
-
-### 🧩 Interactive Showcase  
-> A concept-based animated layout highlighting storytelling and animation using CSS only.  
-🔗 [View Live](https://mithlesh-fd.github.io/Interactive-Showcase)
-
-### 📰 Blog Page  
-> A fully responsive neumorphic blog concept designed with soft UI and modern layout strategies.  
-🔗 [View Live](https://mithlesh-fd.github.io/Blog-Page)
+### 🤖 AI Tool Finder
+> Find the Best AI Tools for Your Needs. From creators to coders, discover the best AI tools in seconds.  
+🔗 [View Live](htts://allaitool.tech)
 
 ### ⏱️ StopWatch  
 > A stylish stopwatch UI made with pure HTML & CSS.  
@@ -64,7 +56,7 @@ I'm actively looking for a **remote internship** in frontend development — let
 
 📧 **Email**: mithlesh.webdev@gmail.com  
 🔗 [**LinkedIn**](https://www.linkedin.com/in/markanti-mithlesh-kumar-944309297)  
-💻 [**GitHub**](https://github.com/Mithlesh-FD)
+💻 [**GitHub**](https://github.com/Mithlesh-95)
 
 ---
 
